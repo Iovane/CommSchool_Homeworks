@@ -1,6 +1,14 @@
 
-Console.WriteLine("Iovane Chikovani");
-Console.ForegroundColor = ConsoleColor.Blue;
+using System;
 
-var userInput = Console.ReadLine();
-Console.WriteLine(userInput);
+public class Homework
+{ 
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Iovane Chikovani");
+        Console.ForegroundColor = ConsoleColor.Blue;
+
+        var userInput = Console.ReadLine();
+        Console.WriteLine(userInput);
+    }
+}

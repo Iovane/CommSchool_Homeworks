@@ -1,0 +1,6 @@
+/bin/
+/.idea/
+/.git/
+*.shelf/
+/CommSchool_Homeworks/bin
+/CommSchool_Homeworks/obj
