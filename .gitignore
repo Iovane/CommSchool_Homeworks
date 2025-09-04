@@ -2,5 +2,6 @@
 /.idea/
 /.git/
 *.shelf/
-/CommSchool_Homeworks/bin
-/CommSchool_Homeworks/obj
+/*/bin
+/*/obj
+CommSchool_Homeworks.sln.DotSettings.user
