@@ -63,7 +63,7 @@ class Program
         Console.WriteLine("Enter hours worked in a week:");
         var salaryInWeek = 0;
         var salaryPerHour = 10;
-        var overTimeSalary = 5;
+        var overtimeSalary = 5;
 
 
         for (var i = 0; i < 7; i++)
