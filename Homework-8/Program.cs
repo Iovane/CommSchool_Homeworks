@@ -121,7 +121,6 @@ class Program
             return;
         }
 
-        // Recursive call
         Task5(number / 10);
         Console.Write(" - " + (number % 10));
     }
