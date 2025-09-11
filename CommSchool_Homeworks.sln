@@ -2,11 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommSchool_Homeworks", "CommSchool_Homeworks\CommSchool_Homeworks.csproj", "{6A5158D4-02EC-493E-94C8-258F03B1A0C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork1", "ClassWork1\ClassWork1.csproj", "{0C1D6395-1D9C-45B3-B9A6-79C75EE43BAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork-1", "ClassWork-1\ClassWork-1.csproj", "{0C1D6395-1D9C-45B3-B9A6-79C75EE43BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6", "Homework6\Homework6.csproj", "{08834647-5483-4330-890C-69EAB357902E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-6", "Homework-6\Homework-6.csproj", "{08834647-5483-4330-890C-69EAB357902E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classwork_2", "Classwork_2\Classwork_2.csproj", "{4F5F17BE-BE80-43F2-872C-F3EAD8656115}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classwork-2", "Classwork-2\Classwork-2.csproj", "{4F5F17BE-BE80-43F2-872C-F3EAD8656115}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-7", "Homework-7\Homework-7.csproj", "{F4038EBC-982C-4001-8C83-4AF9A7E151B7}"
 EndProject
