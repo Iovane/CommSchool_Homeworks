@@ -2,8 +2,8 @@
 
 public class Teacher(string name, bool isCertified)
 {
-    private string Name { get; } = name;
-    private bool IsCertified { get; } = isCertified;
+    public string Name { get; } = name;
+    public bool IsCertified { get; } = isCertified;
     
     public void Teach(Subjects subject)
     {

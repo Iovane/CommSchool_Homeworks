@@ -2,7 +2,7 @@
 
 public class Company(bool isNative)
 {
-    private bool IsNative { get; } = isNative;
+    public bool IsNative { get; } = isNative;
 
     protected void CalculateTax(string occupation, int hourlyRate, int salary)
     {

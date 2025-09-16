@@ -3,11 +3,11 @@
 public class Employee(string name, string lastName, int age, string occupation, List<int> hoursWorked, bool isNative)
     : Company(isNative)
 {
-    private string Name { get; } = name;
-    private string LastName { get; } = lastName;
-    private int Age { get; } = age;
-    private string Occupation { get; } = occupation;
-    private List<int> HoursWorked { get; } = hoursWorked;
+    public string Name { get; } = name;
+    public string LastName { get; } = lastName;
+    public int Age { get; } = age;
+    public string Occupation { get; } = occupation;
+    public List<int> HoursWorked { get; } = hoursWorked;
 
     private readonly Dictionary<string, int> _hourlyRates = new()
     {

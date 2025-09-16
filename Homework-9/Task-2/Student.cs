@@ -2,8 +2,8 @@
 
 public class Student(string name, int age, int yearOfEnrollment)
 {
-    private string Name { get; } = name;
-    private int Age { get; } = age;
+    public string Name { get; } = name;
+    public int Age { get; } = age;
     private int YearOfEnrollment { get; } = yearOfEnrollment;
 
     public Subjects GetSubject()

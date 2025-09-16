@@ -2,14 +2,17 @@
 
 public class Classroom(params Student[] students)
 {
-    private Student[] Students { get; } = students;
+    public Student[] Students { get; } = students;
     
     public void WhatsHappening()
     {
         var students = Students.ToList();
-        students.ForEach(x => x.Study());
-        students.ForEach(x => x.Read());
-        students.ForEach(x => x.Write());
-        students.ForEach(x => x.Relax());
+        students.ForEach(x =>
+        {
+            x.Study();
+            x.Read();
+            x.Write();
+            x.Relax();
+        });
     }
 }
