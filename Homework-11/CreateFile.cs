@@ -28,7 +28,7 @@ public class CreateFile
     public static void CreateFileWithMultiplicationTable()
     {
         const string filePath =
-            @"C:\Users\Kong\RiderProjects\CommSchool_Homeworks\Homework-11\Files\multiplication.txt";
+            @"/Users/iovchikovani/RiderProjects/CommSchool_Homeworks/Homework-11/Files/multiplication.txt";
         Console.WriteLine("Enter The Number: ");
         var n = int.Parse(Console.ReadLine()!);
 
@@ -48,7 +48,7 @@ public class CreateFile
 
     public static void CreateXmlFile()
     {
-        const string filePath = @"C:\Users\Kong\RiderProjects\CommSchool_Homeworks\Homework-11\Files\output.xml";
+        const string filePath = @"/Users/iovchikovani/RiderProjects/CommSchool_Homeworks/Homework-11/Files/output.xml";
         Console.Write("Enter string: ");
         var input = Console.ReadLine();
 
@@ -81,7 +81,7 @@ public class CreateFile
 
     public static void ReadFromJsonAndCalculateDaysTillBirthday()
     {
-        const string filePath = @"C:\Users\Kong\RiderProjects\CommSchool_Homeworks\Homework-11\Files\bday.json";
+        const string filePath = @"/Users/iovchikovani/RiderProjects/CommSchool_Homeworks/Homework-11/Files/bday.json";
         var reader = new StreamReader(filePath);
 
         var json = reader.ReadToEnd();

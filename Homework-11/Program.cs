@@ -8,7 +8,7 @@ class Program
     {
         // CreateFile.CreateWithLines();
         // CreateFile.CreateFileWithMultiplicationTable();
-        CreateFile.CreateXmlFile();
+        // CreateFile.CreateXmlFile();
         CreateFile.ReadFromJsonAndCalculateDaysTillBirthday();
         
     }
